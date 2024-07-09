@@ -1,7 +1,3 @@
-#!/usr/bin/env node
-
-// @ts-check
-
 import * as esbuild from "esbuild";
 import fs from "node:fs";
 import path from "node:path";
