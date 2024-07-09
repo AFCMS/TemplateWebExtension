@@ -3,7 +3,7 @@ import path from "node:path";
 import * as ChromeLauncher from "chrome-launcher";
 
 const USERDATA_DIR = path.resolve("./.tempUserDataDir");
-const EXTENSION_PATH = path.resolve("./dist");
+const EXTENSION_PATH = path.resolve("./dist/chrome");
 
 console.log("╭───── Starting Chrome ────────────────────────────────────────────────────────");
 console.log(`│ Userdata      : ${USERDATA_DIR}`);

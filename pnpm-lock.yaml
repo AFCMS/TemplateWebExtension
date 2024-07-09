@@ -20,6 +20,9 @@ importers:
       esbuild:
         specifier: ^0.23.0
         version: 0.23.0
+      esbuild-plugin-json-cleaner:
+        specifier: ^0.0.5
+        version: 0.0.5(esbuild@0.23.0)
       tsx:
         specifier: ^4.16.2
         version: 4.16.2
@@ -333,6 +336,12 @@ packages:
       supports-color:
         optional: true
 
+  esbuild-plugin-json-cleaner@0.0.5:
+    resolution: {integrity: sha512-Ds5ooI+p0GMMWEVBXbYE3BehPhBQxsRE+hhPfVzw60SJSG68AaRvOdOYm0DkxXY8VDTGsvIBbtpTeCWuqL2TIg==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      esbuild: ^0.23.0
+
   esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
     engines: {node: '>=12'}
@@ -553,6 +562,10 @@ snapshots:
   debug@2.6.9:
     dependencies:
       ms: 2.0.0
+
+  esbuild-plugin-json-cleaner@0.0.5(esbuild@0.23.0):
+    dependencies:
+      esbuild: 0.23.0
 
   esbuild@0.21.5:
     optionalDependencies:
