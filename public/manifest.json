@@ -1,0 +1,23 @@
+{
+    "$schema": "https://json.schemastore.org/chrome-manifest",
+    "manifest_version": 3,
+    "name": "TemplateWebExtension",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "template.web.extension@webdev.dev",
+            "strict_min_version": "100"
+        }
+    },
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "js": [
+                "index.js"
+            ],
+            "matches": [
+                "https://github.com/*"
+            ]
+        }
+    ],
+    "permissions": []
+}

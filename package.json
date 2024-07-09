@@ -1,0 +1,24 @@
+{
+  "name": "template_web_extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "tsc &&./build.js",
+    "dev": "tsc && ./build.js -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/webextension-polyfill": "^0.10.7",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.3",
+    "webextension-polyfill": "^0.12.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ES6",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "moduleResolution": "NodeNext",
+        "allowJs": false,
+        "noImplicitAny": true,
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "strict": true,
+    },
+    "include": [
+        "src"
+    ]
+}
