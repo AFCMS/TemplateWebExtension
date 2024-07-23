@@ -21,7 +21,7 @@
     "esbuild": "^0.23.0",
     "esbuild-plugin-json-cleaner": "^0.0.6",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "webextension-polyfill": "^0.12.0"
   }
 }
