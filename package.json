@@ -20,7 +20,7 @@
     "chrome-launcher": "^1.1.2",
     "esbuild": "^0.23.0",
     "esbuild-plugin-json-cleaner": "^0.0.6",
-    "tsx": "^4.16.2",
+    "tsx": "^4.16.5",
     "typescript": "^5.5.3",
     "webextension-polyfill": "^0.12.0"
   }
